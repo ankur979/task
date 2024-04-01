@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import Modal from "react-modal";
 import "./editTaskModal.css";
 
@@ -120,7 +120,7 @@ const EditTaskModal = ({
                     <option
                       value={value}
                       key={index}
-                      selected={value == editedTask.priority}
+                      selected={value === editedTask.priority}
                     >
                       {value}
                     </option>
@@ -145,7 +145,7 @@ const EditTaskModal = ({
                     <option
                       value={value}
                       key={index}
-                      selected={value == editedTask.status}
+                      selected={value === editedTask.status}
                     >
                       {value}
                     </option>

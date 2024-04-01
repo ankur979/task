@@ -14,15 +14,6 @@ const Cart = ({ task, setTasks, tasks }) => {
     setIsOpen(!isOpen);
   };
 
-  const handleDeleteClick = (task) => {
-    if (task.status === "Completed") {
-      alert("Task cannot be deleted because it is marked as completed.");
-      return;
-    }
-
-    setTasks(tasks.filter((t) => t.id !== task.id));
-  };
-
   return (
     <>
       <div className="cart">
