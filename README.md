@@ -7,9 +7,6 @@ This is a React application created for [insert purpose or description here].
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -27,3 +24,18 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/ankur979/task.git
+   ```
+
+2. Navigate into the project directory:
+   ```bash
+    cd my-react-app
+   ```
+3. Install the dependencies:
+   ```bash
+    npm install
+   ```
+## Usage
+After completing the installation steps, you can run the application using the following command:
+```bash
+    npm start
+   ```
