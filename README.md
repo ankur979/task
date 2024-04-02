@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 
 2. Navigate into the project directory:
    ```bash
-    cd my-react-app
+    cd task
    ```
 3. Install the dependencies:
    ```bash
